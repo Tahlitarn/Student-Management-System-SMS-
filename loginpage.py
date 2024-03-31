@@ -21,7 +21,7 @@ b_top.geometry(f'{app_width}x{app_height}+{int(x)}+{int(y)}')
 # frame = Frame(b_top,width=50, border=10, borderwidth=10)
 # frame.pack(pady=10)
 
-xg = ImageTk.PhotoImage(file="C:/Users/USER/Desktop/Registration Form/pkc2.png")
+# xg = ImageTk.PhotoImage(file="C:/Users/USER/Desktop/Registration Form/pkc2.png")
 
 
 
@@ -55,7 +55,7 @@ def login():
     if txtUserName.get().upper() == "ADMIN" and txtPassword.get().lower()== "admin12345":
         print ("valid user")
         b_top.destroy()
-        import mainpage
+        # import mainpage
         
     elif txtUserName.get() != Uname or txtPassword != Pword:
         print('invalid user')
